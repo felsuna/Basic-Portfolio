@@ -22,8 +22,10 @@ body{
 
 .links {
     position: absolute;
-    right: 175px;
+    right: 170px;
     top: 30px;
+    word-spacing: 15px;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 /* default link color */
@@ -42,6 +44,7 @@ a:hover {
     margin-left: 175px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 .contentTitle {
@@ -59,6 +62,7 @@ a:hover {
     margin-bottom: 200px;
     padding: 20px;
     line-height: 30px;
+    font-family: 'Kodchasan', sans-serif;
    }
 
 #imgdemo {
@@ -74,5 +78,35 @@ a:hover {
     background-color: #92f1cd;
     color: rgb(60, 109, 101);
     text-align: center;
+    font-family: 'Kodchasan', sans-serif;
     border-top: 5px solid rgb(60, 109, 101);
 }
+
+/* Contact form */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
