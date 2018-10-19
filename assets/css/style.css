@@ -16,8 +16,8 @@ body{
 }
 
 #banner{
-    background-color: #92f1cd;
-    border-bottom: 2px ridge rgb(60, 109, 101);
+    background-color: #40342F;
+    border-bottom: 3px ridge #8ACC82;
 }
 
 .links {
@@ -30,17 +30,17 @@ body{
 
 /* default link color */
 a {
-    color: rgb(97, 100, 100)
+    color:#BF9B8D;
 }
 
 /* mouse over link */
 a:hover {
-    color: black;
+    color: #FFEFD5;
 }
 
 #name {
-    color: white;
-    background-color: rgb(121, 124, 124);
+    color: #FFEFD5;
+    background-color: #7F675E;
     margin-left: 175px;
     padding-left: 20px;
     padding-right: 20px;
@@ -49,7 +49,7 @@ a:hover {
 
 .contentTitle {
     font-size: 20px;;
-    border-bottom: 2px ridge rgb(121, 124, 124);
+    border-bottom: 2px ridge #FFEFD5 ;
     color: rgb(121, 124, 124);
 }
 
@@ -75,11 +75,11 @@ a:hover {
     bottom: 0;
     width: 100%;
     height: 40px;
-    background-color: #92f1cd;
-    color: rgb(60, 109, 101);
+    background-color: #40342F;
+    color: #BF9B8D;
     text-align: center;
     font-family: 'Kodchasan', sans-serif;
-    border-top: 5px solid rgb(60, 109, 101);
+    border-top: 8px solid #8ACC82;
 }
 
 /* Contact form */
@@ -97,16 +97,16 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #40342F;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer;s
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #BF9B8D;
 }
 
